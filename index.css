@@ -1,0 +1,129 @@
+
+body{
+	background: url('http://www.kilobolt.com/uploads/1/2/5/7/12571940/background.png') ;
+	background-size: cover;
+	margin: 0;
+}
+
+#bird {
+  position: absolute;
+  width: 92px;
+  height: 64px;
+  overflow: hidden;
+}
+
+#sprite {
+  position: relative;
+}
+
+.play{
+  position: relative;
+}
+
+#container{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#first-container{
+    width: 70px;
+    height: 100%;
+    position: absolute;
+    left: 280px;
+    display: flex;
+}
+
+.block{
+  background-color: green;
+}
+
+.one{
+    width: 70px;
+    height: 30%;
+    align-self: flex-start;
+    position: absolute;
+}
+
+.two{
+	position: absolute;
+    width: 70px;
+    height: 40%;
+    align-self: flex-end;
+}
+
+#second-container{
+	width: 70px;
+    height: 100%;
+    position: absolute;
+    left: 580px;
+    display: flex;
+}
+
+.three{
+	width: 70px;
+    height: 10%;
+    align-self: flex-start;
+    position: absolute;
+}
+
+.four{
+	width: 70px;
+    height: 60%;
+    align-self: flex-end;
+    position: absolute;
+}
+
+#third-container{
+	width: 70px;
+    height: 100%;
+    position: absolute;
+    left: 880px;
+    display: flex;
+}
+.five{
+    width: 70px;
+    height: 20%;
+    align-self: flex-start;
+    position: absolute;
+}
+
+.six{
+	position: absolute;
+    width: 70px;
+    height: 50%;
+    align-self: flex-end;
+}
+
+#fourth-container{
+	width: 70px;
+    height: 100%;
+    position: absolute;
+    left: 1180px;
+    display: flex;
+}
+
+.seven{
+	width: 70px;
+    height: 10%;
+    align-self: flex-start;
+    position: absolute;
+}
+
+.height{
+	width: 70px;
+    height: 60%;
+    align-self: flex-end;
+    position: absolute;
+}
+
+/*/*--------------------- WITH CSS ANIMATION WITHOUT JS ---------------------*/
+/*
+#birdy {
+  animation: flap .160s steps(3) infinite alternate;
+}
+
+@keyframes flap {
+  from { left:  0px; }
+  to { left: -276px; }
+}*/
